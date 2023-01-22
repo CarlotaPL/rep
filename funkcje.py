@@ -5,7 +5,7 @@ def multiply(x,y):
     return x*y
 
 def fizzbuzz(i):
-    if i>0:
+    if isinstance(i, (int,float)) and i>0:
         i = round(i)
         if i%3 ==0 and i%5 == 0:
             return "FizzBuzz"

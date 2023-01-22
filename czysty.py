@@ -15,3 +15,4 @@ def test_fizzbuzz():
     assert fizzbuzz(30) == "FizzBuzz"
     assert fizzbuzz(-7) == "Number out of range"
     assert fizzbuzz (4.62) == "Buzz"
+    assert fizzbuzz("mama") == "Number out of range"
